@@ -2,16 +2,21 @@ h1{
     margin: 10px
 }
 .column{
+    column-gap: 1px;
+    columns: 3 148.2px;
     float:left;
-    width: 27.2%;
     padding: 50px;
-    text-align: center;
+    /* text-align: center; */
     font-size: 25px;
     cursor: pointer;
     color:white;
 }
+.column:hover{
+    color:aqua;
+}
 
 .containerTab{
+    width: auto;
     padding: 20px;
     color: white;
 }

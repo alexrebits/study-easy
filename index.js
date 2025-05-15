@@ -6,7 +6,9 @@ function openTab(id){
         x[i].style.display ="none";
     }
     document.getElementById(id).style.display ="block";
+    // document.location = 'flashcards.html';
 }
+
 function test(){
-    document.getElementById("nope").textContent = "nope!"
+    document.getElementById("nope").textContent = "nope!";
 }
