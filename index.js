@@ -1,7 +1,19 @@
+//Adding event listeners for hovering over sections
+let blocks = document.getElementsByClassName("column");
+let chunks = document.getElementsByClassName("containerTab");
+for(let i = 0; i<blocks.length;i++){
+    var triggers = blocks[i];
+    triggers.addEventListener("mouseover",function(){
+        chunks[i].style.display = "block";
+    });
+    triggers.addEventListener("mouseout",function(){
+        chunks[i].style.display = "none";
+    })
+}
+
 function openTab(id){
     var i,x
     x = document.getElementsByClassName("containerTab");
-    // document.getElementById("nope").textContent = "nope!"
     for (i = 0; i<x.length;i++){
         x[i].style.display ="none";
     }
@@ -12,3 +24,4 @@ function openTab(id){
 function test(){
     document.getElementById("nope").textContent = "nope!";
 }
+
