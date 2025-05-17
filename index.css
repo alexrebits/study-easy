@@ -1,12 +1,17 @@
-h1{
-    margin: 10px
+.row{
+    width:100%;
+
 }
 .column{
-    column-gap: 1px;
-    columns: 3 148.2px;
-    float:left;
-    padding: 50px;
-    /* text-align: center; */
+    
+    width:31.3333%;
+    float:inline-start;
+    margin:1%;
+    border-radius: 0.5cm;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    text-align: center;
     font-size: 25px;
     cursor: pointer;
     color:white;
@@ -15,7 +20,9 @@ h1{
 .containerTab{
     display: none;
     width: auto;
+    margin:1%;
     padding: 20px;
+    border-radius: 0.5cm;
     color: white;
 }
 
