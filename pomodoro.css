@@ -1,0 +1,47 @@
+body{
+    background-color: #b13636;
+    color:white;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.timerBox{
+    margin-inline: 35%;
+    width: 30%;
+    border-radius: 2mm;
+    background-color:rgb(195, 59, 59);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style:dashed;
+    border-color: black;
+    border-width: 5px;
+}
+
+.setter{
+    background-color: rgb(195, 200, 59);
+    color:white;
+    margin-inline:8px ;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.setter:active{
+    top:2px;
+    left:1px;
+    box-shadow: none;;
+}
+
+.timer{
+    font-size: 90pt;
+}
+

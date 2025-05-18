@@ -2,14 +2,29 @@
 <html>
 <head>
     <title>Pomodoro Page</title>
+    <link rel="stylesheet" href = "pomodoro.css">
 </head>    
 <body>
-    <h1>Pomodoro Timer</h1>
-    <p> The <strong>Pomodoro Technique</strong> is a method of time management 
-        that promotes focused work intervals. It involves 25 minutes of uninterupted 
-        work followed by a 5 minute break, also known as a "Pomodoro." 4 of these Pomodoro
-        cycles is followe by a 15-30 minute break.
-    </p>
+    <h1 >Pomodoro Timer</h1>
+
+    <div class="timerBox">
+        <div>
+            <button class="setter" onclick="setPomo()">Pomodoro</button>
+            <button class="setter" onclick="setShortBreak()">Short Break</button>
+            <button class="setter" onclick="setLongBreak()">Long Break</button>
+        </div>
+
+        <div class="timer">
+        25:00
+        </div>
+        <div>
+            <button class = "start" onclick="startTimer()">Start</button>
+            <button onclick="endTimer()">⏭</button>
+        </div>
+
+    </div>
+    
+    <script src = "pomodoro.js"></script> 
 </body>
 
 
