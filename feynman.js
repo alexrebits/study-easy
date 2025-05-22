@@ -1,16 +1,16 @@
-// import { GoogleGenAI } from '#google/genai';
+import { GoogleGenAI } from '@google/genai';
 
-// const ai = new GoogleGenAI({apiKey:"AIzaSyAftLLYUOdXUg1EffIp-57-UUdFkk9r5vo"});
+const ai = new GoogleGenAI({apiKey:"AIzaSyAftLLYUOdXUg1EffIp-57-UUdFkk9r5vo"});
 
-// async function main() {
-//     const response = await ai.models.generateContent({
-//         model: "genmini-1.5-flash",
-//         contents: "Explain how AI works in a few words",
-//     });
-//     console.log(response.text);
-// }
+async function main() {
+    const response = await ai.models.generateContent({
+        model: "gemini-1.5-flash",
+        contents: "Explain why 2 + 2 is equal to 5",
+    });
+    console.log(response.text);
+}
 
-// main();
+main();
 
 
 
