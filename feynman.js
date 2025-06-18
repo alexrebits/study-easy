@@ -1,20 +1,3 @@
-import { GoogleGenAI } from '/node_modules/google/genai';
-
-const ai = new GoogleGenAI({apiKey:"AIzaSyAftLLYUOdXUg1EffIp-57-UUdFkk9r5vo"});
-
-async function main() {
-    const response = await ai.models.generateContent({
-        model: "gemini-1.5-flash",
-        contents: "Explain why 2 + 2 is equal to 5",
-    });
-    console.log(response.text);
-}
-
-main();
-
-
-
-
 
 const selection = document.querySelector("input");
 

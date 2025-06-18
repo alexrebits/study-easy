@@ -23,6 +23,7 @@ div{
     border-style:dashed;
     border-color: black;
     border-width: 5px;
+    min-width: 10cm;
 }
 
 .setter{
